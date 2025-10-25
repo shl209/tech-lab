@@ -1,0 +1,3 @@
+# tech-lab
+
+A website that centralizes information about UCSD businesses that are on the Mobile Order App (General Store, Triton Food Pantry, etc.) and UCSD student-owned small businesses (Nail Techs, Lash Techs, Bakers, Matcha Stand on Library Walk, etc.). There would be a main page where the more general businesses are at the top and you could scroll down to see more specialized businesses. You would also be able to search up certain businesses. Clicking on a business would allow you to see their store hours/booking times, portfolios/services offered, and allow you to book an appointment or order the service within the website.
