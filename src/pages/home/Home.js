@@ -9,24 +9,28 @@ export default function Home() {
           <img src={logo} className="App-logo" alt="logo" />
           <p className="logo-text">Raccoon Room</p>
         </div>
+
         <div className="buttons">
           <div>
             <a href="/">
-              <img src={logo} className="item" alt="g-spot" />
+              <img src={logo} className="item" alt="general store" />
             </a>
             <p> The General Store</p>
           </div>
+
           <div>
             <a href="/">
               <img src={logo} className="item" alt="Food Pantry" />
             </a>
             <p> Triton Food Pantry</p>
           </div>
+
           <div>
             <a href="/">
               <img src={logo} className="item" alt="Kitchen" />
             </a>
-            <p> The General Store</p>
+            <p>The Kitchen</p>
+           
           </div>
         </div>
       </div>

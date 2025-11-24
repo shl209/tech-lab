@@ -8,13 +8,15 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="App-header">
-      <div className="buttons">
-        <div onClick={() => handleDivClick("/")}>Home</div>
-        <div onClick={() => handleDivClick("/about")}>Contact</div>
-        <div onClick={() => handleDivClick("/appt")}>Book Appointment</div>
-        <div onClick={() => handleDivClick("/order")}>Order</div>
-        <div onClick={() => handleDivClick("/map")}>Map</div>
+    <nav>
+      <div className="App-header">
+        <div className="buttons">
+          <div onClick={() => handleDivClick("/")}>Home</div>
+          <div onClick={() => handleDivClick("/about")}>Contact</div>
+          <div onClick={() => handleDivClick("/appt")}>Book Appointment</div>
+          <div onClick={() => handleDivClick("/order")}>Order</div>
+          <div onClick={() => handleDivClick("/map")}>Map</div>
+        </div>
       </div>
     </nav>
   );
