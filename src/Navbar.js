@@ -1,29 +1,21 @@
-import './Navbar.css';
-import { useNavigate } from 'react-router-dom';
+import "./App.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
-    const navigate = useNavigate();
-    const handleDivClick = (path) => {
-        navigate(path);
-    };
-    
+  const navigate = useNavigate();
+  const handleDivClick = (path) => {
+    navigate(path);
+  };
+
   return (
-    <nav className="App">
-        <div onClick={() => handleDivClick('/')}>   
-            HOME
-        </div>
-        <div onClick={() => handleDivClick('/about')}>
-            ABOUT/CONTACT
-        </div>
-        <div onClick={() => handleDivClick('/appt')}>
-            BOOK APPT
-        </div>
-        <div onClick={() => handleDivClick('/order')}>
-            PLACE ORDER
-        </div>
-        <div onClick={() => handleDivClick('/map')}>
-            MAP
-        </div>
+    <nav className="App-header">
+      <div className="buttons">
+        <div onClick={() => handleDivClick("/")}>Home</div>
+        <div onClick={() => handleDivClick("/about")}>Contact</div>
+        <div onClick={() => handleDivClick("/appt")}>Book Appointment</div>
+        <div onClick={() => handleDivClick("/order")}>Order</div>
+        <div onClick={() => handleDivClick("/map")}>Map</div>
+      </div>
     </nav>
   );
 }
